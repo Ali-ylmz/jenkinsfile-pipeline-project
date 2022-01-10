@@ -9,8 +9,14 @@ pipeline {
         }
         stage('run') {
             steps {
+<<<<<<< HEAD
                 echo 'Running the compiled java code.'
                 sh 'java Hello'
+=======
+                echo 'Thanks to Clarusway_Way to Reinvent Yourself'
+                sh 'python --version'
+                sh 'python pipeline.py'
+>>>>>>> 1c125b321f747a7087f844c530a13d37c6b01a13
             }
         }
     }
